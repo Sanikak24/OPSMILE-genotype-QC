@@ -59,7 +59,12 @@ The pipeline focuses on:
 - `qc/pca/opsmile_pca.eigenval`
 
 ---
+Raw genotype files (.bed/.bim/.fam) and protected metadata are **not** included in this repository.
 
+Expected inputs:
+- PLINK binary files: opsmile_geno_allchroms.*
+- manifest: sample_number_barcode_well.csv
+- enviro metadata: LACGWAS_envirodata_pitt_updated_04.2025.xlsx
 ## How to Run
 
 ### 1) Clone repo
