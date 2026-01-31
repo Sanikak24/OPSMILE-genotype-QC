@@ -8,7 +8,7 @@ The pipeline focuses on:
 - **Relatedness / IBD** using PLINK `--genome`
 - **Country-level summaries** by mapping genotype IDs to study site/country metadata
 - **Exporting review tables** for flagged parent/offspring-like pairs and mismatch patterns
-- (Optional) **PCA** using LD-pruned SNPs (included as a standard population QC step)
+- **PCA** using LD-pruned SNPs (included as a standard population QC step)
 
 > **Note:** Raw genotype files are not included in this repo (privacy + size). The repo is designed to run on an HPC/Linux environment.
 
@@ -54,7 +54,7 @@ The pipeline focuses on:
 - `qc/opsmile_ibd.genome`
 - Candidate tables (e.g., parent/full-sib like pairs) and review exports
 
-### (Optional) PCA
+### PCA
 - `qc/pca/opsmile_pca.eigenvec`
 - `qc/pca/opsmile_pca.eigenval`
 
