@@ -1,0 +1,41 @@
+# PLINK genotype data
+*.bed
+*.bim
+*.fam
+*.ped
+*.map
+*.pgen
+*.pvar
+*.psam
+
+# PLINK outputs
+*.hh
+*.log
+*.nosex
+*.imiss
+*.lmiss
+*.genome
+*.eigenvec
+*.eigenval
+*.prune.in
+*.prune.out
+
+# Large spreadsheets / sensitive
+*.xlsx
+*.csv
+
+# But allow your code + small summary exports
+!scripts/*.py
+!scripts/*.sh
+!README.md
+!METHODS.md
+!TROUBLESHOOTING.md
+!ENVIRONMENT.md
+
+# Python / Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# OS
+.DS_Store
